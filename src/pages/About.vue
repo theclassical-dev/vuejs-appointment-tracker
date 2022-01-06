@@ -1,4 +1,4 @@
 <template>
-    <h1>aaaaaaa</h1>
-    <router-link to="/">main</router-link>
+    <h1>Test Version 2.0</h1>
+    <router-link to="/">Main Page</router-link>
 </template>

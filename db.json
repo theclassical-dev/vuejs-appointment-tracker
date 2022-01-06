@@ -13,15 +13,15 @@
       "id": "3"
     },
     {
-      "reminder": false,
+      "reminder": true,
       "text": "Arsenal Match",
       "day": "jan 8 at 1pm",
       "id": 36
     },
     {
-      "text": "aa",
-      "day": "Jan 13 first Leg",
-      "reminder": false,
+      "text": "Version Testing ",
+      "day": "Jan 2022",
+      "reminder": true,
       "id": 37
     }
   ]
