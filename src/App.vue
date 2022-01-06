@@ -45,28 +45,27 @@ export default {
       { ...task, reminder: !task.reminder } : task)
     },
     
+    async fetchTasks() {
+
+      const res = await fetch('http://localhost:5000/tasks')
+
+      const data = await res.json()
+
+      return data
+    },
+    async fetchTask(id) {
+
+      const res = await fetch(`http://localhost:5000/tasks/${id}`)
+
+      const data = await res.json()
+
+      return data
+    }
+    
+
   },
-  created() {
-    this.tasks = [
-      {
-        id:1,
-        text: 'School Assignment',
-        day: 'Dec 29 at 1pm',
-        reminder: true,
-      },
-      {
-        id:2,
-        text: 'Arsenal Match',
-        day: 'Dec 28 at 1pm',
-        reminder: false,
-      },
-      {
-        id:3,
-        text: 'Premier League',
-        day: 'Jan 1 at 12:30pm',
-        reminder: true,
-      },
-    ];
+  async created() {
+    this.tasks = await this.fetchTasks()
   }
 }
 </script>
