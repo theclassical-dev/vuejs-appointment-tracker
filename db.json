@@ -13,7 +13,7 @@
       "id": "3"
     },
     {
-      "reminder": true,
+      "reminder": false,
       "text": "Arsenal Match",
       "day": "jan 8 at 1pm",
       "id": 36
