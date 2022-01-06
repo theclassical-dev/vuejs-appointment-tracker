@@ -7,16 +7,22 @@
       "reminder": "false"
     },
     {
-      "id": "3",
-      "text": "Premier League",
-      "day": "Jan 28 at 1pm",
-      "reminder": "true"
+      "reminder": true,
+      "text": "Arsenal vs liverpool",
+      "day": "jan 13 at 1pm",
+      "id": "3"
     },
     {
-      "id": 36,
-      "text": "Arsenal vs Liverpool Match",
+      "reminder": false,
+      "text": "Arsenal Match",
+      "day": "jan 8 at 1pm",
+      "id": 36
+    },
+    {
+      "text": "aa",
       "day": "Jan 13 first Leg",
-      "reminder": false
+      "reminder": false,
+      "id": 37
     }
   ]
 }
